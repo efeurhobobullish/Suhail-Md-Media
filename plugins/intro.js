@@ -2,35 +2,33 @@
 
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 //                                                                                                      //
-//                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
-//                                                                                                      // 
-//                                         Ｖ：1．2．2                                                   // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
+//                                   ＥＭＰＩＲＥ  ＢＯＴ－ＭＤ  ＢＥＴＡ                                //
 //                                                                                                      //
+//                                         Ｖ：1．2．2                                                   //
 //                                                                                                      //
+//            ███████╗███╗   ███╗██████╗ ██╗██████╗ ███████╗                                            //
+//            ██╔════╝████╗ ████║██╔══██╗██║██╔══██╗██╔════╝                                            //
+//            █████╗  ██╔████╔██║██████╔╝██║██████╔╝█████╗                                              //
+//            ██╔══╝  ██║╚██╔╝██║██╔═══╝ ██║██╔══██╗██╔══╝                                              //
+//            ███████╗██║ ╚═╝ ██║██║     ██║██║  ██║███████╗                                            //
+//            ╚══════╝╚═╝     ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝                                            //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 
 CURRENTLY RUNNING ON BETA VERSION!!
-*
-   * @project_name : Suhail-Md
-   * @author : Suhail <https://github.com/SuhailTechInfo>
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo
-   * @infoription : Suhail-Md ,A Multi-functional whatsapp user bot.
-   * @version 1.2.2 
-*
-   * Licensed under the  GPL-3.0 License;
-* 
-   * ┌┤Created By Suhail Tech Info.
-   * © 2023 Suhail-Md ✭ ⛥.
-   * plugin date : 10/6/2023
-* 
+
+   * @project_name : Empire-Md
+   * @author : Empire Tech <https://github.com/efeurhobobullish>
+   * @youtube : https://www.youtube.com/@EmpireTech
+   * @description : Empire-Md ,A Multi-functional WhatsApp user bot.
+   * @version 1.2.2
+
+   * Licensed under the GPL-3.0 License;
+
+   * ┌┤Created By Empire Tech.
+   * © 2026 Empire-Md ✭ ⛥.
+   * plugin date : 01/03/2026
+
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
    * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -40,44 +38,54 @@ CURRENTLY RUNNING ON BETA VERSION!!
    * SOFTWARE.
 **/
 
+const { smd, Config, smdBuffer, prefix } = require('../lib')
 
-
-const { smd, Config,smdBuffer,  prefix } = require('../lib')
-
-
-var surl = 'https://github.com/SuhailTechInfo/Suhail-Md' // Source URL
-const number = '923184474176'
-var name = ' Suhail Tech'
-var body = '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯'
+var surl = 'https://github.com/efeurhobobullish/Empire-Md' // Source URL
+const number = '2348078582627'
+var name = 'Empire Tech'
+var body = '𝐄𝐌𝐏𝐈𝐑𝐄 𝐁𝐔𝐈𝐋𝐃𝐒'
 var image = 'https://telegra.ph/file/1e60489705c851f74b55e.jpg'
+
 let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
 │       「 𝗠𝗬 𝗜𝗡𝗧𝗥𝗢 」
-│ Name      : sυнαɪʟ ᴛᴇᴄʜ ɪиғօ
-│ Place       : ʟαнᴏʀᴇ ᴘᴋ
-│ Gender    :  ᴍᴀʟᴇ
-│ Age          : 22_
-│ Phone     : wa.me/923184474176
-│ Youtube   : Youtube.com/c/SuhailTechInfo
-│ Status     : ɢᴀᴍᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
+│ Name      : Empire Tech
+│ Place     : Delta, Nigeria
+│ Gender    : Male
+│ Age       : 21
+│ Phone     : wa.me/2348078582627
+│ Youtube   : youtube.com/@only_one_empire
+│ Status    : Developer | Bot Engineer
 ╰═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄`
 
 
+// ---------------------------------------------------------------------------
 
- //---------------------------------------------------------------------------
- smd({
-             pattern: "intro",
-             desc: "Show intro of user",
-             category: "fun",
-             filename: __filename,
-             use: '<group link.>',
-         },
-         async(message) => {
-    try{
-          let media ;try{ media = await smdBuffer(image) }catch{media = log0}
-           const q =await message.bot.fakeMessage("contact",{},name) 
-           let contextInfo = {...(await message.bot.contextInfo(name,body,media,1,surl, 2) )}
-           await message.send(text, {contextInfo : contextInfo },"suhail",  q )
-    }catch(e){ await message.error(`${e}\n\ncommand: intro`,e,false)}
+smd({
+  pattern: "intro",
+  desc: "Show intro of user",
+  category: "fun",
+  filename: __filename,
+  use: '<group link.>',
+},
+async (message) => {
+  try {
 
+    let media;
+    try { 
+      media = await smdBuffer(image) 
+    } catch { 
+      media = null 
+    }
 
- })
+    const q = await message.bot.fakeMessage("contact", {}, name);
+
+    let contextInfo = {
+      ...(await message.bot.contextInfo(name, body, media, 1, surl, 2))
+    };
+
+    await message.send(text, { contextInfo: contextInfo }, "empire", q);
+
+  } catch (e) {
+    await message.error(`${e}\n\ncommand: intro`, e, false);
+  }
+});
